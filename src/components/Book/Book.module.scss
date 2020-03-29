@@ -3,6 +3,7 @@
 .root {
   display: flex;
   flex-direction: column;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -21,6 +22,7 @@
 .author {
   font-family: $regular;
   font-size: 12px;
+  width: 114px;
 }
 .title {
   font-weight: 700;
