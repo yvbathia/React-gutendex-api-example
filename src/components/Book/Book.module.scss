@@ -10,6 +10,7 @@
 .imgContainer {
   width: 114px;
   height: 162px;
+  margin-bottom: 2px;
 }
 .img {
   height: 100%;
@@ -23,6 +24,9 @@
   font-family: $regular;
   font-size: 12px;
   width: 114px;
+  max-height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .title {
   font-weight: 700;
