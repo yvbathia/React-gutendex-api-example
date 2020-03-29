@@ -1,0 +1,55 @@
+@import "../../styles/variables.scss";
+
+.root {
+  background-color: $lightBlue;
+  width: 60%;
+}
+
+input {
+  border-radius: 4px;
+  padding-left: 10px;
+  height: 40px;
+  width: 100%;
+  background-color: $lightBlue;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+::placeholder {
+  opacity: 0.5;
+}
+.container {
+  position: relative;
+  display: flex;
+}
+.search,
+.cross {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 30px;
+  display: flex;
+  background-color: $lightBlue;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search {
+  justify-content: flex-start;
+  //   padding-left: 10px;
+}
+
+.cross {
+  justify-content: flex-end;
+  //   padding-right: 20px;
+}
+
+svg {
+  height: 100%;
+  width: 30px;
+}
