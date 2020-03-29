@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .root {
   height: 100%;
   width: 100%;
@@ -52,4 +54,11 @@
     padding: 0;
     width: 90%;
   }
+}
+
+.title {
+  font-size: 48px;
+  font-family: $semiBold;
+  color: $blue;
+  margin: 0;
 }
