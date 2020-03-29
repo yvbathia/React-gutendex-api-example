@@ -63,7 +63,9 @@
 .btn {
   cursor: pointer;
   outline: none;
-  border: none;
+  @media (min-width: 786px) {
+    border: none;
+  }
 }
 
 .loaderContainer,
